@@ -1,12 +1,11 @@
 import React from "react";
-
-// TODO: Change the link below to go back to the home page.
+import { Link } from 'react-router-dom';
 
 export const PostsNav = () => (
   <nav aria-label="breadcrumb">
     <ol className="breadcrumb">
       <li className="breadcrumb-item">
-        <a className="btn btn-link">Go Home</a>
+        <Link to='/' className="btn btn-link">Go Home</Link>
       </li>
     </ol>
   </nav>
